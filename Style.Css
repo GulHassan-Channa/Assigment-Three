@@ -1,0 +1,124 @@
+body{
+    background-color:rgb(158, 235, 81) ;
+    
+}
+h1{
+    text-align: center;
+    color:rgb(0, 0, 0) ;
+}
+
+.H1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-right: 55%;
+    background-color: darkblu
+}
+.btn{
+    
+    border-radius: 29px;
+    background-color: rgb(0, 19, 102);
+    width: 35%;
+    height: 450px;
+     display: flex; 
+    display: flexbox;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+button{
+    
+     padding-left: 10px; 
+    text-align: center;
+    margin: 5px;
+    margin-right: 8px;
+    width: 100px;
+    height: 100px;
+    font-size: 2.5em;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+input{
+    width: auto;
+    height: 80px;
+    font-size: 36px;
+    border-radius: 25px;
+    margin: auto;
+    padding-bottom: 2px;
+    padding-top: 2px;}
+
+ .img{
+    margin-top: 30px;
+} */
+ #Pervious{
+    margin-left: 33%;
+    font-size: 20px;
+    
+}
+#Next{
+    
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+main{
+    width: 70%;
+    height: 500px;
+    border: 2px solid black ;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0px 0px 9px white;
+}
+.Images{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    display: none;
+} 
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.imageAll{
+    display: none;
+    width: 100% !important;
+    position: fixed;
+}
+
+.prev, .next {
+    display: flex;
+    height: 89.3%;
+    /* align-items: center; */
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    /* margin-top: -22px; */
+    padding: 16px;
+    color: white;
+    font-size: 22px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-top: 30%;}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #016170;
+}
+
+.active {
+    background-color: #717171;
+}
+.container{
+
+margin-left: 35%;
+
+
+
+}
